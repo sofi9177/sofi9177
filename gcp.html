@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:white;"
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(255, 0, 0);"
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 650px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  background-color:rgb(255, 0, 0);"
+}
+a:link, a:visited {
+  background-color:rgb(255, 0, 0);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(200, 0, 0);
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:rgb(255, 0, 0);"
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h1>GCP rejse til Canada</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a style="color:white;"href="file:///Users/bruger/Documents/test.html#">Toronto</a></li>
+      <li><a style="color:white;"href="file:///Users/bruger/Documents/gcp.html">GCP</a></li>
+      <li><a style="color:white;"href="file:///Users/bruger/Documents/film.html">Homestay</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h2>GCP</h2>
+    <p>GCP er det der former det faglige fokus for jeres tur - vær opmærksom i undervisningen hvis i vil vinde æren for den bedste film. Det er vigtigt at forstå at forudantagelser og forforståelsen for værtslandet ikke altid er korrekte og at det kan være en hindring for forståelsen af landet hvis man fx regner med at alle Canadiere er progressive, alle immigrerede familier er ambitiøse på deres børns vegne eller andet. Kulturforståelse handler i bund og grund om at kunne reflekterer over interaktioner med fremmede kulturer og at være i stand til at møde folk med et åbent og fordomsfrit sindelag.</p>
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_Canada_%28600x800%29.jpg" alt="Flag of Canada" height="142">
+  </article>
+</section>
+
+<footer>
+  <h3>Kontakt information</h3>
+  <p> Sofia Barigo Østergaard<p>
+    <p>Mit Google Sites link:<p>
+    <a href="https://sites.google.com/s/1EuwQORUNUF2BiMwYqZ8nYcXuPgMfooBK/p/1dl0F1KtouyqMs2LWqOo9zdePALD5SRyX/edit">sofiainfo</a>
+
+</footer>
+
+</body>
+</html>
